@@ -1,0 +1,12 @@
+.error-fallback {
+    flex: 1;
+    margin: 2.375rem 2.25rem 1.125rem 2.25rem;
+
+    &__title {
+        text-align: center;
+    }
+
+    &__restart-app {
+        margin-top: 0.875rem;
+    }
+}

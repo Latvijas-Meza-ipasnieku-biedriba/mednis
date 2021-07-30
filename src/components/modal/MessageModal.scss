@@ -1,0 +1,31 @@
+.message-modal {
+    .message-modal__icon {
+        margin-top: 1.875rem;
+        width: 5.5rem;
+        height: 5.5rem;
+
+        svg {
+            width: 5.5rem;
+            height: 5.5rem;
+        }
+    }
+
+    .message-modal__text {
+        margin-top: 2.625rem;
+        margin-bottom: 1.875rem;
+        text-align: center;
+
+        .message-modal__text__title {
+            margin: 0;
+        }
+
+        .message-modal__text__description {
+            margin: 0.75rem 0 0 0;
+            color: var(--gray-700);
+        }
+    }
+
+    .message-modal__custom-content {
+        width: 100%;
+    }
+}

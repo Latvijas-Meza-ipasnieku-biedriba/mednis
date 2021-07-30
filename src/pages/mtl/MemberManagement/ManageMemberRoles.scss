@@ -1,0 +1,47 @@
+.manage-member-roles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    &__role {
+        display: flex;
+        align-items: center;
+        font-family: "IBM Plex Sans Regular";
+        font-size: 1rem;
+        color: var(--gray-800);
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--gray-200);
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--gray-800);
+        }
+
+        .checkbox {
+            flex-direction: row-reverse;
+            width: 100%;
+
+            label {
+                margin-left: 1rem;
+            }
+        }
+
+        &:first-of-type {
+            padding-top: 1rem;
+        }
+    }
+
+    &__buttons {
+        &__cancel {
+            color: var(--gray-500);
+            margin-top: 1rem;
+            .icon {
+                svg {
+                    fill: var(--gray-500);
+                }
+            }
+        }
+    }
+}

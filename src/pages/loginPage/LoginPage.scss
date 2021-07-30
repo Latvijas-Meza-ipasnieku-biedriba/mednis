@@ -1,0 +1,33 @@
+.login-page {
+    flex: 1;
+    margin: 2.375rem 2.25rem 1.125rem 2.25rem;
+
+    .title {
+        text-align: center;
+    }
+
+    .login-button {
+        margin-top: 0.415rem;
+    }
+
+    .register-button {
+        margin-top: 0.875rem;
+    }
+
+    .agreements {
+        margin-top: 0.875rem;
+
+        input[type="checkbox"]:checked {
+            background-color: var(--teal);
+        }
+
+        a {
+            color: var(--teal);
+            text-decoration: none;
+        }
+
+        a:active {
+            color: var(--teal-pressed);
+        }
+    }
+}

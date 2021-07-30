@@ -1,0 +1,21 @@
+.photo-prompt {
+    width: 100%;
+
+    .title {
+        margin: 0.375rem 0 0 0;
+        text-align: center;
+        color: var(--gray-800);
+    }
+
+    .button {
+        margin-bottom: 1.5rem;
+    }
+
+    .button:first-of-type {
+        margin-top: 1rem;
+    }
+
+    .button:last-of-type {
+        margin-bottom: 0;
+    }
+}

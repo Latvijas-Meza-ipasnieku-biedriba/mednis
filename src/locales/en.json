@@ -1,0 +1,416 @@
+{
+    "tabs": {
+        "map": "Map",
+        "observations": "Observations",
+        "damage": "Damages",
+        "hunt": "Hunt",
+        "settings": "Settings",
+        "mtl": "$t(mtl.title)"
+    },
+    "language": {
+        "lv": "Latviešu",
+        "en": "English",
+        "ru": "Pусский"
+    },
+    "languageSelect": {
+        "title": "Welcome to Mednis",
+        "next": "Next"
+    },
+    "settings": {
+        "title": "Settings",
+        "language": {
+            "label": "Language",
+            "lv": "Latviešu",
+            "en": "English",
+            "ru": "Pусский"
+        },
+        "pin": {
+            "actions": {
+                "change": "Change PIN",
+                "delete": "Delete PIN",
+                "setup": "Set a PIN"
+            },
+            "deleteConfirmation": {
+                "delete": "Delete",
+                "title": "Delete the PIN?"
+            },
+            "label": "Security PIN",
+            "setup": {
+                "confirmingTitle": "Re-enter new PIN",
+                "enteringTitle": "Enter the new PIN",
+                "failure": "PIN does not match",
+                "success": "PIN set"
+            },
+            "deletedConfirmation": {
+                "title": "PIN deleted"
+            }
+        }
+    },
+    "mtl": {
+        "title": "HRU",
+        "registerMember": {
+            "failure": {
+                "description": "To add this member to a selected station, the member must register in the Mednis app and verify their hunter's license number by linking a VMD account.",
+                "close": "Close",
+                "title": "Failed to verify"
+            },
+            "addMember": "Add",
+            "hunterCardNumber": "Hunting certificate number",
+            "title": "Register a new member"
+        },
+        "allDistricts": "All districts",
+        "availablePermits": "Available licenses",
+        "cancel": "Cancel",
+        "hunterCardNumberShort": "License nr.",
+        "huntingDistricts": "Hunting districts",
+        "issuedPermits": "Licenses issued",
+        "manageMemberRoles": {
+            "failure": {
+                "close": "Close",
+                "title": "Failed to restore membership roles"
+            }
+        },
+        "memberManagement": "Member management",
+        "memberRoles": {
+            "administrator": "Administrator",
+            "hunter": "Hunter",
+            "member": "Member",
+            "trustee": "Responsible person",
+            "huntManager": "Hunting manager"
+        },
+        "permits": "Licenses",
+        "removeMember": {
+            "failure": {
+                "close": "Close",
+                "title": "Failed to delete"
+            },
+            "remove": "Delete",
+            "removeFromMultipleTitle": "From which districts to delete this member?",
+            "removeFromSingleTitle": "Do you want to delete this member?"
+        },
+        "save": "Save",
+        "statistics": "Statistics",
+        "usedPermits": "Used licenses",
+        "district": "District"
+    },
+    "observations": {
+        "title": "Observations",
+        "notes": "Notes",
+        "type": "Type",
+        "species": {
+            "primary": "Species",
+            "secondary": "main group"
+        },
+        "otherMammals": "Other mammals",
+        "birds": "Birds",
+        "gender": "Sex",
+        "age": "Age",
+        "count": "Count",
+        "observedSignsOfDisease": "Signs of the disease observed",
+        "signsOfDisease": "Signs of the disease",
+        "notesOnDiseases": "Notes on diseases",
+        "observedSigns": "Signs observed",
+        "deathType": "Type of death",
+        "addAnother": "Add more",
+        "photo": "Photo",
+        "saveAndSend": "Save and send",
+        "deleteAnimalsItem": {
+            "title": "Do you want to delete?",
+            "delete": "Delete"
+        },
+        "observedSignsNotes": "Other features"
+    },
+    "damage": {
+        "title": "Damages",
+        "notes": "Notes",
+        "type": "Type",
+        "photo": "Photo",
+        "saveAndSend": "Save and send",
+        "land": {
+            "type": "AL type",
+            "subtype": "AL subtype",
+            "species": "Species",
+            "otherSpecies": "Other species",
+            "area": {
+                "primary": "Damaged area",
+                "secondary": "ha"
+            },
+            "count": "Count"
+        },
+        "forest": {
+            "area": {
+                "primary": "Damaged area",
+                "secondary": "approximate, ha"
+            },
+            "standProtection": {
+                "label": "Forest stand protection done?",
+                "no": "No",
+                "yes": "Yes"
+            },
+            "damagedTreeSpecies": "Damaged tree species",
+            "otherDamagedTreeSpecies": "Other species",
+            "damageVolumeType": "Fresh damage volume for target species",
+            "responsibleSpecies": "Species responsible for damages",
+            "otherResponsibleSpecies": "Other species",
+            "damageTypes": "Damage type"
+        },
+        "infrastructure": {
+            "type": "Damage type",
+            "otherType": "Other",
+            "responsibleSpecies": "Species responsible for damages",
+            "otherResponsibleSpecies": "Other species"
+        }
+    },
+    "select": {
+        "selectOption": "Select an option"
+    },
+    "currentPosition": {
+        "loading": "Determines the location",
+        "fetchPosition": "Locate",
+        "failure": {
+            "title": "Failed to determine location",
+            "message": "Make sure location services are enabled and try again",
+            "button": "$t(currentPosition.fetchPosition)"
+        }
+    },
+    "photo": {
+        "select": "Add photo",
+        "open": "Open photo",
+        "remove": {
+            "label": "Remove photo",
+            "title": "Do you want to delete the photo?",
+            "remove": "Delete"
+        },
+        "prompt": {
+            "title": "Add photo",
+            "chooseFromPhotos": "Choose from photos",
+            "capture": "Capture photo",
+            "view": "View photo"
+        },
+        "failure": {
+            "title": "Failed to add photo",
+            "message": "Make sure access to photos and camera is enabled and try again"
+        },
+        "edit": "Edit"
+    },
+    "modal": {
+        "close": "Close",
+        "cancel": "Cancel",
+        "back": "Back"
+    },
+    "loading": {
+        "active": "Sending information",
+        "success": "Information sent successfully",
+        "failure": "Failed to send information",
+        "retry": "Retry",
+        "cancel": "Cancel"
+    },
+    "map": {
+        "returnHome": "Return to initial map position",
+        "position": {
+            "enable": "Enable location tracking",
+            "resume": "Resume location tracking",
+            "disable": "Disable location tracking",
+            "failure": {
+                "title": "Failed to determine location",
+                "message": "Make sure location services are enabled and try again"
+            }
+        },
+        "settings": {
+            "title": "Map settings",
+            "basemaps": {
+                "title": "Base map",
+                "lvmBasemap": "Base map",
+                "ortofoto": "Orthophoto"
+            },
+            "layers": {
+                "title": "Data layers",
+                "ladLb": "State Rural Support Service",
+                "zmniMelioration": "Land reclamation cadastre",
+                "vzdCadaster": "SLS cadastre",
+                "damages": "Damages",
+                "observations": "Observations",
+                "districts": "Districts"
+            },
+            "infographics": {
+                "title": "Infographics",
+                "hunted-wolf-2020": "Bagged wolves, 2020",
+                "hunted-roe-deer-2020": "Hunted roe deer, 2020",
+                "hunted-red-deer-2020": "Hunted red deer, 2020",
+                "hunted-moose-2020": "Hunted moose, 2020",
+                "african-swine-fever-2019-to-2021": "African swine fever, prevalence 2019-2021"
+            }
+        }
+    },
+    "hunt": {
+        "injuredAnimals": "Injured animals",
+        "limitedSpecies": "Limited species",
+        "unlimitedSpecies": "Non-limited species",
+        "unlimitedTerm": "Non-limited term",
+        "permits": "Licenses",
+        "noPermits": "No license",
+        "huntingLicenseNumber": "Hunting certificate number",
+        "huntersSeasonCard": "Hunter's season card",
+        "locationData": "Location data",
+        "species": "Species",
+        "type": {
+            "label": "Type",
+            "hunted": "Hunted",
+            "injured": "Injured"
+        },
+        "gender": {
+            "label": "Sex",
+            "male": "Male",
+            "female": "Female",
+            "unspecified": "Unspecified"
+        },
+        "age": {
+            "label": "Age",
+            "baby": "<1 year",
+            "young": "Young",
+            "average": "Adult/mature",
+            "old": "Old",
+            "unspecified": "Unspecified"
+        },
+        "notes": "Notes",
+        "photo": "Photo",
+        "count": "Count",
+        "observedSignsOfDisease": "Signs of the disease observed",
+        "submit": "Submit",
+        "registerPrey": "Registering hunted game",
+        "strapNumber": "Tag number",
+        "huntCardInvalid": "Invalid",
+        "huntCardValid": "Valid",
+        "huntersLicenseNumber": "Hunting certificate number",
+        "huntingDistricts": "Hunting collectives",
+        "huntingDistrictManager": "Head of the hunting club",
+        "huntingDistrictMember": "Member of the hunting club",
+        "title": "Hunting",
+        "changeHunterCardNumber": "Change hunter's license number to another",
+        "enterHunterCardNumber": "Enter the hunting permit number",
+        "huntManagersLicenseNumber": "Hunting manager's license number",
+        "hunterForeigner": "Hunter foreigner"
+    },
+    "animalSpecies": {
+        "moose": "Moose",
+        "redDeer": "Red deer",
+        "roeDeer": "Roe deer",
+        "wildBoar": "Wild boar",
+        "lynx": "Lynx",
+        "wolf": "Wolf",
+        "beaver": "Beaver",
+        "whiteHare": "White hare",
+        "polecat": "Polecat",
+        "marten": "Marten",
+        "europeanPineMarten": "European pine marten",
+        "beechMarten": "Beech marten",
+        "americanMink": "American mink",
+        "raccoonDog": "Raccoon dog",
+        "fox": "Fox",
+        "muskrat": "Muskrat",
+        "hare": "Hare",
+        "mountainHare": "Mountain hare",
+        "greyHare": "European hare",
+        "badger": "Badger",
+        "fallowDeer": "Fallow deer",
+        "mouflon": "Mouflon",
+        "sikaDeer": "Sika deer",
+        "raccoon": "Raccoon",
+        "coypu": "Nutria",
+        "bobakMarmot": "Bobak marmot",
+        "goldenJackal": "Golden jackal",
+        "westernCapercaillie": "Western capercaillie",
+        "blackGrouse": "Black grouse",
+        "hazelGrouse": "Hazel grouse",
+        "rackelhahn": "Rackelhahn",
+        "pheasant": "Pheasant",
+        "commonWoodPigeon": "Common wood pigeon",
+        "domesticPigeon": "Domestic pigeon",
+        "eurasianWoodcock": "Eurasian woodcock",
+        "hoodedCrow": "Hooded crow",
+        "eurasianMagpie": "Eurasian magpie",
+        "beanGoose": "Bean goose",
+        "greaterWhiteFrontedGoose": "Greater white-fronted goose",
+        "canadaGoose": "Canada goose",
+        "greylagGoose": "Greylag goose",
+        "eurasianCoot": "Eurasian coot",
+        "eurasianTeal": "Eurasian teal",
+        "gadwall": "Gadwall",
+        "northernShoveler": "Northern shoveler",
+        "mallard": "Mallard",
+        "garganey": "Garganey",
+        "eurasianWigeon": "Eurasian wigeon",
+        "northernPintail": "Northern pintail",
+        "tuftedDuck": "Tufted duck",
+        "greaterScaup": "Greater scaup",
+        "commonScoter": "Common scoter",
+        "commonGoldeneye": "Common goldeneye",
+        "bear": "Bear",
+        "racoonDog": "Racoon dog",
+        "ferret": "Ferret",
+        "other": "Other species",
+        "otherMammals": "Other mammals",
+        "birds": "Birds"
+    },
+    "initialLoading": {
+        "active": "Loads the data required by the app",
+        "failure": "Failed to load the data required by the app",
+        "retry": "Retry"
+    },
+    "menu": {
+        "aboutApp": "About the app",
+        "exit": "Exit",
+        "title": "Profile and settings",
+        "profile": "$t(profile.title)",
+        "settings": "$t(settings.title)",
+        "editQueue": "$t(editQueue.title)"
+    },
+    "profile": {
+        "basicInfo": "Basic information",
+        "firstName": "Name",
+        "huntingDistricts": "$t(hunt.huntingDistricts)",
+        "lastName": "Surname",
+        "title": "User profile",
+        "connectVmdAccount": "$t(vmdConnect.connect)"
+    },
+    "about": {
+        "title": "About",
+        "description": "The Mednis app is a tool for collecting data compatible with the State Forest Registers for recording animals, evidence of its presence, hunting and damage. The application is designed to promote the optimal use, conservation and regulation of forestry resources, while reducing the risk of damage and loss in the forestry and agricultural sectors, as well as reducing the administrative burden of hunting.",
+        "euSupportNotice": "The application has been developed with the state and European Union support measure \"Cooperation\" 16.2. within the sub-measure \"Support for the development of new products, methods, processes and technologies\" within the project \"DEVELOPMENT OF AN INFORMATION COLLECTION TOOL FOR THE MANAGEMENT OF ANIMAL POPULATION\"",
+        "contactUs": "Contact us",
+        "termsOfUse": "Terms of Use",
+        "privacyPolicy": "Privacy Policy",
+        "debugInfo": "Debug Information",
+        "appVersion": "App version: {{version}}"
+    },
+    "editQueue": {
+        "title": "Submitted Items",
+        "add": {
+            "success": "Report added"
+        }
+    },
+    "vmdConnect": {
+        "connect": "Add VMD account",
+        "failure": "Failed to add VMD account",
+        "skip": "Skip"
+    },
+    "login": {
+        "title": "Authorization",
+        "login": "Log in",
+        "register": "Register now",
+        "agreements": "I have read and agree to the <1>Terms of Use</1>. I have read the <2>Privacy Policy</2>."
+    },
+    "general": {
+        "delete": "Delete"
+    },
+    "pinValidator": {
+        "message": "Number of attempts remaining:{{remainingAttempts}}",
+        "title": "Enter a PIN"
+    },
+    "errorFallback": {
+        "title": "The app encountered a critical error",
+        "sendDebugInfo": "Send debug information",
+        "restartApp": "Restart the app",
+        "description": "Try restarting the app. If the problem persists, send us debugging information to {{supportEmail}}. Additionally, add information about your phone (model, operating system, and version), as well as steps you took before you received this message. We'll use this information to identify the root cause of the problem and try to fix it as soon as possible."
+    }
+}

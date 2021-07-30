@@ -1,0 +1,54 @@
+.num-pad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem 1.5rem;
+    place-items: center;
+    max-width: 15rem;
+}
+
+.np-digit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 50%;
+    background-color: white;
+    color: var(--gray-800);
+    box-shadow: 0 4px 8px 0 rgba(31, 32, 33, 0.08);
+    font-family: "IBM Plex Sans Bold";
+    font-size: 1.25rem;
+    text-align: center;
+
+    &--pressed {
+        background-color: var(--green-active);
+        color: white;
+        border: 1px solid var(--green-active);
+        box-shadow: none;
+    }
+}
+
+.np-icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+        fill: var(--gray-800);
+    }
+
+    &--pressed {
+        background-color: var(--green-active);
+
+        svg {
+            fill: white;
+        }
+    }
+}

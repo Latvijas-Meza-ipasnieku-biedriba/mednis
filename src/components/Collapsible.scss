@@ -1,0 +1,46 @@
+.collapsible {
+    width: 100%;
+
+    .collapsible-item {
+        .collapsible-item__header {
+            width: 100%;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: "IBM Plex Sans Bold";
+            font-size: 1rem;
+            text-align: left;
+            color: var(--gray-800);
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                fill: var(--green-active);
+            }
+
+            .badge {
+                color: white;
+                background-color: var(--error);
+                border: none;
+                margin-right: auto;
+                margin-left: 0.5rem;
+                height: 1rem;
+                min-width: 1rem;
+                font-size: 0.65rem;
+            }
+        }
+
+        .collapsible-item__content {
+            padding-bottom: 1rem;
+        }
+    }
+
+    .collapsible-item:not(:last-of-type) {
+        border-bottom: 1px solid var(--gray-200);
+    }
+
+    .collapsible-item--collapsed:last-of-type {
+        border-bottom: 1px solid var(--gray-200);
+    }
+}

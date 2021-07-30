@@ -1,0 +1,22 @@
+.select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background: white
+        url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M8 11a.997.997 0 01-.707-.293l-3-3a1 1 0 111.414-1.414L8 8.586l2.293-2.293a1 1 0 011.414 1.414l-3 3A.997.997 0 018 11" fill="%2300B9AE" /></svg>');
+    background-position: right 1rem top 50%;
+    background-repeat: no-repeat;
+
+    &:focus {
+        outline: none;
+        border: 1px solid var(--green-active);
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+}

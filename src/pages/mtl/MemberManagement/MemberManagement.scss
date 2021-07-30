@@ -1,0 +1,30 @@
+.member-management {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+
+    &__register-member {
+        display: flex;
+        font-size: 1.125rem;
+        font-family: "IBM Plex Sans Bold";
+        color: var(--gray-800);
+        justify-content: center;
+        padding: 1.5rem 0;
+        border-bottom: 1px solid var(--gray-200);
+
+        svg {
+            margin-left: 1rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--teal);
+        }
+    }
+
+    .collapsible {
+        .collapsible-item {
+            &__content {
+                padding-bottom: 0;
+            }
+        }
+    }
+}

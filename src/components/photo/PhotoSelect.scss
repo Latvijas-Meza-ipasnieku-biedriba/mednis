@@ -1,0 +1,38 @@
+.photo-select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 0.5rem;
+    background-color: var(--sand-pressed);
+
+    &:focus {
+        border: 1px solid var(--green-active);
+    }
+
+    .photo-select__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: white;
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--gray-800);
+        }
+    }
+
+    .photo-select__title {
+        margin: 1.375rem 0 0 0;
+        font-family: "IBM Plex Sans Bold";
+        font-size: 1.125rem;
+        text-align: center;
+        color: var(--gray-800);
+    }
+}

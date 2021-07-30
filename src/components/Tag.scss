@@ -1,0 +1,16 @@
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    font-size: 0.75rem;
+    font-family: "IBM Plex Sans Bold";
+    text-align: center;
+    color: white;
+    background-color: var(--green);
+    text-transform: uppercase;
+    width: fit-content;
+}

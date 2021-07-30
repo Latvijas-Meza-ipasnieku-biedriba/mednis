@@ -1,0 +1,47 @@
+.title {
+    font-family: "IBM Plex Sans Bold";
+    margin: 0.75rem 0;
+    color: var(--gray-800);
+}
+
+h1.title {
+    font-size: 2.8215rem; // 45 / 16
+    line-height: 58px;
+}
+
+h2.title {
+    font-size: 2.125rem; // 34 / 16
+    line-height: 44px;
+}
+
+h3.title {
+    font-size: 1.375rem; // 22 / 16
+    line-height: 29px;
+}
+
+h4.title {
+    font-size: 1rem; // 16 / 16
+    line-height: 20px;
+}
+
+.text {
+    line-height: 1.5;
+    margin: 0.5rem 0;
+}
+
+.text-bold {
+    font-family: "IBM Plex Sans Bold";
+}
+
+.label {
+    display: flex;
+    font-family: "IBM Plex Sans Bold";
+    font-size: 0.75rem; // 12 / 16
+    margin-top: 1.5rem; // 24 / 16
+    margin-bottom: 0.8125rem; // 13 / 16
+
+    .secondaryLabel {
+        font-family: "IBM Plex Sans Regular";
+        margin-left: 0.25rem; // 4 / 16
+    }
+}

@@ -1,0 +1,64 @@
+.current-position {
+    display: flex;
+    min-height: 200px;
+    background-color: #ecf0f1;
+
+    .current-position-loading {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        padding-right: calc(env(safe-area-inset-right) + 2rem);
+        padding-bottom: 1.75rem;
+        padding-left: calc(env(safe-area-inset-left) + 2rem);
+        background-color: var(--gray-100);
+
+        .title {
+            margin: 2rem 0 0 0;
+        }
+    }
+
+    .current-position-success {
+        flex: 1;
+        height: 200px;
+
+        .map {
+            position: relative;
+
+            &__controls-top-right {
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                z-index: 800; // Position on top of map
+            }
+        }
+    }
+
+    .current-position-failure {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-top: 2.25rem;
+        padding-right: calc(env(safe-area-inset-right) + 2rem);
+        padding-bottom: 1.125rem;
+        padding-left: calc(env(safe-area-inset-left) + 2rem);
+
+        .title {
+            margin: 0;
+        }
+
+        .text {
+            margin: 0.875rem 0 0 0;
+        }
+
+        .link-button {
+            margin: 0.5rem 0 0 0;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+platform :android do
+    desc "Build"
+    lane :aab do
+      gradle(
+          task: 'bundle',
+          build_type: 'Release'
+      )
+    end
+
+    desc "Build and upload to Play Store's internal track"
+    lane :aab_internal do
+      gradle(
+          task: 'bundle',
+          build_type: 'Release'
+      )
+      upload_to_play_store(track: "internal", aab: "../android/app/build/outputs/bundle/release/app-release.aab")
+    end
+  end
+  

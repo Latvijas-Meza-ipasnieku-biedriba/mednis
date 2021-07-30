@@ -1,0 +1,59 @@
+.page {
+    height: 100%;
+}
+
+.page-header {
+    padding-top: env(safe-area-inset-top);
+    padding-right: env(safe-area-inset-right);
+    padding-left: env(safe-area-inset-left);
+    background-color: var(--green);
+
+    .page-header__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3.5rem;
+
+        .page-header__content__back {
+            padding: 1rem;
+            margin-right: -1rem;
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                fill: white;
+            }
+        }
+
+        .page-header__content__title {
+            flex: 1;
+            margin: 0;
+            font-family: "IBM Plex Sans Bold";
+            font-size: 1.125rem;
+            text-align: left;
+            color: white;
+            margin-left: 1rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .page-header__content__close {
+            padding: 1rem;
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                fill: white;
+            }
+        }
+    }
+}
+
+.page-content {
+    height: calc(100% - 3.5rem - env(safe-area-inset-top));
+    margin-right: env(safe-area-inset-right);
+    margin-left: env(safe-area-inset-left);
+    padding: 1rem;
+    overflow: auto;
+}

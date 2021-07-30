@@ -1,0 +1,29 @@
+.title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: calc(env(safe-area-inset-top) + 1.25rem);
+    padding-right: calc(env(safe-area-inset-right) + 1rem);
+    padding-left: calc(env(safe-area-inset-left) + 1rem);
+    padding-bottom: 1.25rem;
+
+    .title {
+        margin: 0;
+    }
+
+    .position-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .position {
+            font-size: 0.75rem;
+            text-align: right;
+            margin: 0;
+        }
+
+        .fetch-position {
+            margin-left: 1rem;
+        }
+    }
+}

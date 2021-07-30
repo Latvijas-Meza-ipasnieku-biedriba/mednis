@@ -1,0 +1,39 @@
+.animals-item {
+    &:not(.animals-item--collapsed) {
+        .animals-item__header {
+            margin-bottom: -1.5rem;
+        }
+    }
+
+    .animals-item__header {
+        display: flex;
+
+        .animals-item__header__left {
+            flex: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 1rem 0;
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                fill: var(--green-active);
+            }
+
+            .title {
+                margin: 0 0 0 1rem;
+            }
+        }
+
+        .animals-item__header__right {
+            padding: 1rem 0 1rem 1rem;
+
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+                fill: var(--gray-500);
+            }
+        }
+    }
+}

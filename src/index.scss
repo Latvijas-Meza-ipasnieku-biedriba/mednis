@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "IBM Plex Sans Regular";
+    src: url("./assets/fonts/IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "IBM Plex Sans Bold";
+    src: url("./assets/fonts/IBMPlexSans-Bold.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    font-family: "IBM Plex Sans Regular";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    color: var(--gray-700);
+    background-color: var(--bg-color);
+}
+
+html,
+body,
+#react-root {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%; // Prevent font scaling in landscape on iOS
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bg-color: #f2f1ed;
+    --green: #606c38;
+    --green-active: #77844f;
+    --green-pressed: #465322;
+    --orange: #fe5d26;
+    --orange-active: #ff7a3b;
+    --orange-pressed: #de3e12;
+    --sand: #f2efd5;
+    --sand-active: #fefae0;
+    --sand-pressed: #e6e3ca;
+    --teal: #00b9ae;
+    --teal-active: #3ed6ca;
+    --teal-pressed: #009e94;
+    --success: #0cce6b;
+    --error: #ed254e;
+    --warning: #edd83d;
+    --information: #0cce6b;
+    --gray-100: #f3f4f6;
+    --gray-200: #dcddde;
+    --gray-300: #c6c6c8;
+    --gray-400: #a5a6a7;
+    --gray-500: #818183;
+    --gray-600: #5e5e60;
+    --gray-700: #3d3e3f;
+    --gray-800: #1f2021;
+}

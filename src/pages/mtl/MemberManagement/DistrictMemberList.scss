@@ -1,0 +1,39 @@
+.district-member {
+    display: flex;
+    border-bottom: 1px solid var(--gray-200);
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    &:first-of-type {
+        border-top: 1px solid var(--gray-200);
+    }
+
+    &__left {
+        display: flex;
+        width: 100%;
+        align-items: center;
+
+        span {
+            font-size: 1rem;
+            color: var(--gray-700);
+            font-family: "IBM Plex Sans Regular";
+            margin-left: 1rem;
+            margin-right: auto;
+            line-height: 1.25rem;
+        }
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--gray-800);
+        }
+    }
+
+    &__right {
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--gray-500);
+        }
+    }
+}

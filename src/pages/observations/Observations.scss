@@ -1,0 +1,45 @@
+.observations {
+    .observations__header {
+        background-color: white;
+        padding-bottom: 1rem;
+
+        .observations__header__fields {
+            margin-right: calc(env(safe-area-inset-right) + 1rem);
+            margin-left: calc(env(safe-area-inset-left) + 1rem);
+
+            .type-label {
+                margin-bottom: 0;
+            }
+
+            .type {
+                padding-top: 0.8125rem;
+
+                .type-button {
+                    position: relative;
+
+                    .type-button__badge {
+                        position: absolute;
+                        top: 0;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+        }
+    }
+
+    .observations__content {
+        margin-right: calc(env(safe-area-inset-right) + 1rem);
+        margin-left: calc(env(safe-area-inset-left) + 1rem);
+    }
+
+    .observations__footer {
+        margin-right: calc(env(safe-area-inset-right) + 1rem);
+        margin-bottom: 2.5rem;
+        margin-left: calc(env(safe-area-inset-left) + 1rem);
+
+        .observations__footer__submit {
+            margin-top: 1.5rem;
+        }
+    }
+}

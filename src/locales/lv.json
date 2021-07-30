@@ -1,0 +1,416 @@
+{
+    "tabs": {
+        "map": "Karte",
+        "observations": "Novērojumi",
+        "damage": "$t(damage.title)",
+        "hunt": "$t(hunt.title)",
+        "settings": "Iestatījumi",
+        "mtl": "$t(mtl.title)"
+    },
+    "language": {
+        "lv": "Latviešu",
+        "en": "English",
+        "ru": "Pусский"
+    },
+    "general": {
+        "delete": "Dzēst"
+    },
+    "languageSelect": {
+        "title": "Esi sveicināts lietotnē \"Mednis\"",
+        "next": "Tālāk"
+    },
+    "login": {
+        "title": "Autorizācija",
+        "login": "Autorizēties",
+        "register": "Reģistrēties",
+        "agreements": "Esmu izlasījis <1>Lietošanas nosacījumus</1> un piekrītu tiem. Esmu izlasījis <2>Privātuma politiku</2>."
+    },
+    "pinValidator": {
+        "title": "Ievadiet PIN",
+        "message": "Atlikušo mēģinājumu skaits: {{remainingAttempts}}"
+    },
+    "vmdConnect": {
+        "connect": "Pievienot VMD kontu",
+        "skip": "Izlaist",
+        "failure": "Neizdevās pievienot VMD kontu"
+    },
+    "menu": {
+        "title": "Profils un iestatījumi",
+        "profile": "$t(profile.title)",
+        "editQueue": "$t(editQueue.title)",
+        "settings": "$t(settings.title)",
+        "aboutApp": "$t(about.title)",
+        "exit": "Iziet"
+    },
+    "profile": {
+        "title": "Lietotāja profils",
+        "basicInfo": "Pamatinformācija",
+        "firstName": "Vārds",
+        "lastName": "Uzvārds",
+        "connectVmdAccount": "$t(vmdConnect.connect)",
+        "huntingDistricts": "$t(hunt.huntingDistricts)"
+    },
+    "editQueue": {
+        "title": "Iesniegtie vienumi",
+        "add": {
+            "success": "Atskaite nosūtīta"
+        }
+    },
+    "settings": {
+        "title": "Iestatījumi",
+        "language": {
+            "label": "Valoda",
+            "lv": "Latviešu",
+            "en": "English",
+            "ru": "Pусский"
+        },
+        "pin": {
+            "label": "Drošības PIN",
+            "actions": {
+                "setup": "Uzstādīt PIN",
+                "change": "Mainīt PIN",
+                "delete": "Dzēst PIN"
+            },
+            "setup": {
+                "enteringTitle": "Ievadiet jauno PIN",
+                "confirmingTitle": "Atkārtoti ievadiet jauno PIN",
+                "success": "PIN uzstādīts",
+                "failure": "PIN nesakrīt"
+            },
+            "deleteConfirmation": {
+                "title": "Vai vēlaties dzēst PIN?",
+                "delete": "Dzēst"
+            },
+            "deletedConfirmation": {
+                "title": "PIN izdzēsts"
+            }
+        }
+    },
+    "about": {
+        "title": "Par lietotni",
+        "description": "Mednis lietotne ir Meža valsts reģistru savietojamu datu ievākšanas rīks medījamo dzīvnieku, to klātbūtnes pierādījumu, nomedīšanas fakta un postījumu reģistrēšanai. Lietotne paredzēta, lai veicinātu mežsaimniecības resursu izmantošanu, saglabāšanu un regulēšanu optimālā līmenī, vienlaicīgi mazinot postījumu un zaudējumu riskus mežsaimniecības un lauksaimniecības nozarēs, kā arī samazinot medniecības administratīvo slogu.",
+        "euSupportNotice": "Lietotne izstrādāta valsts un Eiropas Savienības atbalsta pasākuma \"Sadarbība\" 16.2. apakšpasākuma \"Atbalsts jaunu produktu, metožu, procesu un tehnoloģiju izstrādei\" projekta \"INFORMĀCIJAS IEVĀKŠANAS RĪKA IZSTRĀDE MEDĪJAMO DZĪVNIEKU POPULĀCIJU APSAIMNIEKOŠANAI\" ietvaros.",
+        "contactUs": "Sazinies ar mums",
+        "termsOfUse": "Lietošanas noteikumi",
+        "privacyPolicy": "Privātuma politika",
+        "debugInfo": "Atkļūdošanas informācija",
+        "appVersion": "Lietotnes versija: {{version}}"
+    },
+    "mtl": {
+        "title": "MTL",
+        "permits": "Licences",
+        "issuedPermits": "Izsniegtas licences",
+        "availablePermits": "Pieejamas licences",
+        "usedPermits": "Norakstītas licences",
+        "statistics": "Statistika",
+        "memberManagement": "Biedru pārvaldība",
+        "hunterCardNumberShort": "Apl. nr.",
+        "district": "Iecirknis",
+        "huntingDistricts": "Medību iecirkņi",
+        "allDistricts": "Visi iecirkņi",
+        "save": "Saglabāt",
+        "cancel": "Atcelt",
+        "registerMember": {
+            "title": "Reģistrēt jaunu biedru",
+            "hunterCardNumber": "Mednieka apliecības nr.",
+            "addMember": "Pievienot",
+            "failure": {
+                "title": "Neizdevās verificēt",
+                "description": "Lai pievienot šo biedru izvēlētam iecirknim, biedram ir jāreģistrējas lietotnē Mednis un jāverificē savs mednieka apliecības numurs caur VMD konta piesaistīšanu.",
+                "close": "Aizvērt"
+            }
+        },
+        "removeMember": {
+            "removeFromMultipleTitle": "No kuriem iecirkņiem dzēst šo biedru?",
+            "removeFromSingleTitle": "Vai vēlaties dzēst šo biedru?",
+            "remove": "Dzēst",
+            "failure": {
+                "title": "Neizdevās dzēst",
+                "close": "Aizvērt"
+            }
+        },
+        "manageMemberRoles": {
+            "failure": {
+                "title": "Neizdevās atjaunot biedra lomas",
+                "close": "Aizvērt"
+            }
+        },
+        "memberRoles": {
+            "administrator": "Administrators",
+            "trustee": "Atbildīgā persona",
+            "member": "Biedrs",
+            "hunter": "Mednieks",
+            "huntManager": "Medību vadītājs"
+        }
+    },
+    "observations": {
+        "title": "Novērojumi",
+        "notes": "Piezīmes",
+        "type": "Veids",
+        "species": {
+            "primary": "Sugas",
+            "secondary": "pamatgrupa"
+        },
+        "otherMammals": "Citi zīdītāji",
+        "birds": "Putni",
+        "gender": "Dzimums",
+        "age": "Vecums",
+        "count": "Skaits",
+        "observedSignsOfDisease": "Novērotas slimības pazīmes",
+        "signsOfDisease": "Slimības pazīmes",
+        "notesOnDiseases": "Piezīmes par slimībām",
+        "observedSigns": "Novērotas pazīmes",
+        "observedSignsNotes": "Citas pazīmes",
+        "deathType": "Bojāejas veids",
+        "addAnother": "Pievienot vēl",
+        "photo": "Fotoattēls",
+        "saveAndSend": "Saglabāt un nosūtīt",
+        "deleteAnimalsItem": {
+            "title": "Vai vēlaties dzēst?",
+            "delete": "Dzēst"
+        }
+    },
+    "damage": {
+        "title": "Postījumi",
+        "notes": "Piezīmes",
+        "type": "Veids",
+        "photo": "Fotoattēls",
+        "saveAndSend": "Saglabāt un nosūtīt",
+        "land": {
+            "type": "LIZ tips",
+            "subtype": "LIZ apakštips",
+            "species": "Suga",
+            "otherSpecies": "Cita suga",
+            "area": {
+                "primary": "Izpostītā platība",
+                "secondary": "ha"
+            },
+            "count": "Skaits"
+        },
+        "forest": {
+            "area": {
+                "primary": "Aptuveni bojāta platība",
+                "secondary": "ha"
+            },
+            "standProtection": {
+                "label": "Mežaudzes aizsardzība ir veikta?",
+                "yes": "Jā",
+                "no": "Nē"
+            },
+            "damagedTreeSpecies": "Bojātā koku suga",
+            "otherDamagedTreeSpecies": "Cita suga",
+            "damageVolumeType": "Svaigo bojājumu apjoms mērķa sugas kokiem",
+            "responsibleSpecies": "Bojājumus nodarījušā dzīvnieku suga",
+            "otherResponsibleSpecies": "Cita suga",
+            "damageTypes": "Bojājuma veids"
+        },
+        "infrastructure": {
+            "type": "Bojājuma tips",
+            "otherType": "Cits",
+            "responsibleSpecies": "Bojājumus nodarījušā dzīvnieku suga",
+            "otherResponsibleSpecies": "Cita suga"
+        }
+    },
+    "select": {
+        "selectOption": "Izvēlies vērtību"
+    },
+    "currentPosition": {
+        "loading": "Nosaka atrašanās vietu",
+        "fetchPosition": "Noteikt atrašanās vietu",
+        "failure": {
+            "title": "Neizdevās noteikt atrašanās vietu",
+            "message": "Pārliecinies, ka atrašanās vietas noteikšana ir iespējota un mēģini vēlreiz",
+            "button": "$t(currentPosition.fetchPosition)"
+        }
+    },
+    "photo": {
+        "select": "Pievienot fotoattēlu",
+        "open": "Atvērt fotoattēlu",
+        "edit": "Labot",
+        "remove": {
+            "label": "Dzēst fotoattēlu",
+            "title": "Vai vēlaties dzēst fotoattēlu?",
+            "remove": "Dzēst"
+        },
+        "prompt": {
+            "title": "Pievienot fotoattēlu",
+            "chooseFromPhotos": "Izvēlēties fotoattēlu",
+            "capture": "Uzņemt fotoattēlu",
+            "view": "Apskatīt fotoattēlu"
+        },
+        "failure": {
+            "title": "Neizdevās pievienot fotoattēlu",
+            "message": "Pārliecinies, ka piekļuve fotoattēliem un kamerai ir iespējota un mēģini vēlreiz"
+        }
+    },
+    "modal": {
+        "close": "Aizvērt",
+        "cancel": "Atcelt",
+        "back": "Atpakaļ"
+    },
+    "loading": {
+        "active": "Sūta informāciju",
+        "success": "Informācija nosūtīta",
+        "failure": "Neizdevās nosūtīt informāciju",
+        "retry": "Atkārtot",
+        "cancel": "Atcelt"
+    },
+    "initialLoading": {
+        "active": "Ielādē lietotnei nepieciešamos datus",
+        "failure": "Neizdevās ielādēt lietotnei nepieciešamos datus",
+        "retry": "Atkārtot"
+    },
+    "map": {
+        "returnHome": "Atgriezieties sākotnējā kartes pozīcijā",
+        "position": {
+            "enable": "Aktivizēt atrašanās vietas izsekošanu",
+            "resume": "Atsākt atrašanās vietas izsekošanu",
+            "disable": "Pārtraukt atrašanās vietas izsekošanu",
+            "failure": {
+                "title": "Neizdevās noteikt atrašanās vietu",
+                "message": "Pārliecinies, ka atrašanās vietas noteikšana ir iespējota un mēģini vēlreiz"
+            }
+        },
+        "settings": {
+            "title": "Kartes iestatījumi",
+            "basemaps": {
+                "title": "Fona karte",
+                "lvmBasemap": "Fona karte",
+                "ortofoto": "Ortofoto"
+            },
+            "layers": {
+                "title": "Datu slāņi",
+                "districts": "Medību iecirkņi",
+                "observations": "Novērojumi",
+                "damages": "Postījumi",
+                "zmniMelioration": "ZMNĪ meliorācijas kadastrs",
+                "ladLb": "LAD lauku reģistrs",
+                "vzdCadaster": "VZD kadastrs"
+            },
+            "infographics": {
+                "title": "Infografikas",
+                "african-swine-fever-2019-to-2021": "Āfrikas cūku mēris, izplatība 2019-2021.g.",
+                "hunted-moose-2020": "Nomedītie aļņi, 2020.g.",
+                "hunted-red-deer-2020": "Nomedītie staltbrieži, 2020.g.",
+                "hunted-roe-deer-2020": "Nomedītas stirnas, 2020.g.",
+                "hunted-wolf-2020": "Nomedītie vilki, 2020.g."
+            }
+        }
+    },
+    "hunt": {
+        "title": "Medības",
+        "registerPrey": "Reģistrēt medījumu",
+        "injuredAnimals": "Ievainotie dzīvnieki",
+        "limitedSpecies": "Limitētie dzīvnieki",
+        "unlimitedSpecies": "Nelimitētie dzīvnieki",
+        "unlimitedTerm": "Beztermiņa",
+        "permits": "Licences",
+        "noPermits": "Licenču nav",
+        "strapNumber": "Marķiera numurs",
+        "huntingLicenseNumber": "Medību apliecības numurs",
+        "huntersLicenseNumber": "Mednieka apliecības numurs",
+        "huntManagersLicenseNumber": "Medību vadītāja apliecības numurs",
+        "huntersSeasonCard": "Mednieku sezonas karte",
+        "huntingDistricts": "Medību kolektīvi",
+        "huntingDistrictManager": "Mednieku biedrības vadītājs",
+        "huntingDistrictMember": "Mednieku biedrības biedrs",
+        "huntCardValid": "Derīga",
+        "huntCardInvalid": "Nederīga",
+        "locationData": "Atrašanas GPS dati",
+        "species": "Suga",
+        "type": {
+            "label": "Tips",
+            "hunted": "Nomedīts",
+            "injured": "Ievainots"
+        },
+        "gender": {
+            "label": "Dzimums",
+            "male": "Tēviņš",
+            "female": "Mātīte",
+            "unspecified": "Nenoteikts"
+        },
+        "age": {
+            "label": "Vecums",
+            "baby": "< 1 gadu",
+            "young": " Jauns",
+            "average": "Vidēja vecuma",
+            "old": "Vecs",
+            "unspecified": "Nenoteikts"
+        },
+        "notes": "Piezīmes",
+        "photo": "Fotoattēls",
+        "count": "Skaits",
+        "observedSignsOfDisease": "Novērotas slimības pazīmes",
+        "submit": "Iesniegt",
+        "changeHunterCardNumber": "Mainīt mednieka apliecības numuru uz citu",
+        "hunterForeigner": "Mednieks ārzemnieks",
+        "enterHunterCardNumber": "Ievadiet medību atļaujas numuru"
+    },
+    "animalSpecies": {
+        "moose": "Alnis",
+        "redDeer": "Staltbriedis",
+        "roeDeer": "Stirna",
+        "wildBoar": "Mežacūka",
+        "lynx": "Lūsis",
+        "wolf": "Vilks",
+        "beaver": "Bebrs",
+        "whiteHare": "Baltais zaķis",
+        "polecat": "Sesks",
+        "marten": "Cauna",
+        "europeanPineMarten": "Meža cauna",
+        "beechMarten": "Akmens cauna",
+        "americanMink": "Amerikas ūdele",
+        "raccoonDog": "Jenotsuns",
+        "fox": "Lapsa",
+        "muskrat": "Ondatra",
+        "hare": "Zaķis",
+        "mountainHare": "Baltais zaķis",
+        "greyHare": "Pelēkais zaķis",
+        "badger": "Āpsis",
+        "fallowDeer": "Dambriedis",
+        "mouflon": "Muflons",
+        "sikaDeer": "Sika briedis",
+        "raccoon": "Jenots",
+        "coypu": "Nutrija",
+        "bobakMarmot": "Baibaks",
+        "goldenJackal": "Zeltainais šakālis",
+        "westernCapercaillie": "Mednis",
+        "blackGrouse": "Rubenis",
+        "hazelGrouse": "Mežirbe",
+        "rackelhahn": "Raķelis",
+        "pheasant": "Fazāns",
+        "commonWoodPigeon": "Lauku balodis",
+        "domesticPigeon": "Mājas balodis",
+        "eurasianWoodcock": "Sloka",
+        "hoodedCrow": "Pelēkā vārna",
+        "eurasianMagpie": "Žagata",
+        "beanGoose": "Sējas zoss",
+        "greaterWhiteFrontedGoose": "Baltpieres zoss",
+        "canadaGoose": "Kanādas zoss",
+        "greylagGoose": "Meža zoss",
+        "eurasianCoot": "Laucis",
+        "eurasianTeal": "Krīklis",
+        "gadwall": "Pelēkā pīle",
+        "northernShoveler": "Platknābis",
+        "mallard": "Meža pīle",
+        "garganey": "Prīkšķe",
+        "eurasianWigeon": "Baltvēderis",
+        "northernPintail": "Garkaklis",
+        "tuftedDuck": "Cekulpīle",
+        "greaterScaup": "Ķerra",
+        "commonScoter": "Melnā pīle",
+        "commonGoldeneye": "Gaigala",
+        "bear": "Lācis",
+        "racoonDog": "Jenotsuns",
+        "ferret": "Sesks",
+        "other": "Cita suga",
+        "otherMammals": "Citi zīdītāji",
+        "birds": "Putni"
+    },
+    "errorFallback": {
+        "title": "Lietotne saskārās ar kritisku kļūdu",
+        "description": "Mēģiniet restartēt lietotni. Ja problēma atkārtojas, atsūtiet mums atkļūdošanas informāciju uz {{supportEmail}}. Papildus pievienojiet informāciju par jūsu telefonu (modelis, operētājsistēma un tās versija), kā arī darbības, kuras veicāt pirms nonācāt pie šī paziņojuma. Izmantosim šo informāciju, lai noteiktu problēmas sakni un mēģināsim to pēc iespējas ātrāk novērst.",
+        "restartApp": "Restartēt lietotni",
+        "sendDebugInfo": "Nosūtīt atkļūdošanas informāciju"
+    }
+}

@@ -1,0 +1,85 @@
+.profile {
+    &__card {
+        display: flex;
+        border-bottom: 1px solid var(--gray-200);
+        padding: 1.75rem 0;
+
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-left: 1.5rem;
+
+            &__name {
+                font-family: "IBM Plex Sans Bold";
+                font-size: 1rem;
+                color: var(--gray-800);
+            }
+
+            .read-only-input {
+                display: flex;
+
+                label {
+                    color: var(--gray-700);
+                    font-family: "IBM Plex Sans Regular";
+                    margin: 0;
+                }
+
+                &__value {
+                    input {
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+
+    &__basic-info {
+        &__connect {
+            margin: 1.625rem 0;
+            font-family: "IBM Plex Sans Bold";
+            font-size: 1.125rem;
+            color: var(--teal);
+
+            &:disabled {
+                opacity: 0.5;
+            }
+        }
+    }
+
+    .collapsible {
+        .collapsible-item:not(.collapsible-item--collapsed) {
+            .collapsible-item__header {
+                padding-bottom: 0.25rem;
+            }
+        }
+    }
+
+    .read-only-input {
+        &__value {
+            input {
+                font-family: "IBM Plex Sans Regular";
+                color: var(--gray-700);
+            }
+        }
+
+        &__value--with-icon {
+            input {
+                margin-left: 0.5rem;
+            }
+        }
+
+        svg {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .valid {
+            fill: var(--success);
+        }
+
+        .invalid {
+            fill: var(--error);
+        }
+    }
+}

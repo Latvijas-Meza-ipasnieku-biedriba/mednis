@@ -1,0 +1,26 @@
+.remove-member {
+    label:first-of-type {
+        margin-top: 0;
+    }
+
+    &__submit {
+        margin-top: 2rem;
+        color: var(--error);
+        border: 1px solid;
+        border-color: var(--gray-200);
+        background: white;
+        box-shadow: 0 0.25rem 0.5rem 0 rgba(31, 32, 33, 0.08);
+    }
+
+    &__cancel {
+        color: var(--gray-500);
+        margin-top: 1rem;
+        padding: 1rem 0 0 0;
+
+        .icon {
+            svg {
+                fill: var(--gray-500);
+            }
+        }
+    }
+}

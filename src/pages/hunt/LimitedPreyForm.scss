@@ -1,0 +1,33 @@
+.limited-prey-form {
+    .current-position {
+        margin-top: -1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    .checkbox {
+        margin-top: 1.75rem;
+    }
+
+    .button {
+        margin-top: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    &__hunter-card-number {
+        label {
+            margin-bottom: 0.1875rem;
+            color: var(--gray-400);
+        }
+    }
+
+    &__foreigner {
+        .switch {
+            margin-top: 1.5rem;
+        }
+
+        .text-input {
+            margin-top: 0.5rem;
+        }
+    }
+}

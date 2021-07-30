@@ -1,0 +1,30 @@
+.register-member {
+    margin-top: 1.25rem;
+    border-bottom: 1px solid var(--gray-200);
+
+    .text-input {
+        font-size: 1.125rem;
+        font-family: "IBM Plex Sans Regular";
+        height: 3.5rem;
+
+        &::placeholder {
+            font-size: 1.125rem;
+            font-family: "IBM Plex Sans Regular";
+            color: var(--gray-500);
+        }
+    }
+
+    &__submit {
+        margin-top: 2rem;
+    }
+
+    &__cancel {
+        color: var(--gray-500);
+        margin-top: 1rem;
+        .icon {
+            svg {
+                fill: var(--gray-500);
+            }
+        }
+    }
+}

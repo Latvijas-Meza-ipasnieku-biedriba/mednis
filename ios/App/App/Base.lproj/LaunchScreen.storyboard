@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <containerView key="view" opaque="NO" contentMode="scaleToFill" id="QIo-KU-un1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <connections>
+                            <segue destination="0xO-VQ-nyS" kind="embed" id="Lrz-IG-oFL"/>
+                        </connections>
+                    </containerView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0d7-Go-bAN">
+            <objects>
+                <viewController id="0xO-VQ-nyS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eV4-rD-1Hh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="KtG-hA-dkk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="jt4-CI-GZG">
+                                <rect key="frame" x="105.66666666666669" y="288.33333333333331" width="164" height="235.33333333333331"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KtG-hA-dkk" firstAttribute="top" secondItem="eV4-rD-1Hh" secondAttribute="top" id="62G-bv-ETn"/>
+                            <constraint firstItem="jt4-CI-GZG" firstAttribute="centerX" secondItem="eV4-rD-1Hh" secondAttribute="centerX" id="AIY-60-Pl5"/>
+                            <constraint firstItem="KtG-hA-dkk" firstAttribute="leading" secondItem="eV4-rD-1Hh" secondAttribute="leading" id="bbc-yW-jDa"/>
+                            <constraint firstAttribute="trailing" secondItem="KtG-hA-dkk" secondAttribute="trailing" id="mUC-5u-hRi"/>
+                            <constraint firstItem="jt4-CI-GZG" firstAttribute="centerY" secondItem="eV4-rD-1Hh" secondAttribute="centerY" id="qdz-gh-8eR"/>
+                            <constraint firstAttribute="bottom" secondItem="KtG-hA-dkk" secondAttribute="bottom" id="zOt-ui-xKv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enK-6q-uSn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="374"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash" width="603" height="1072"/>
+        <image name="SplashLogo" width="164" height="235.33332824707031"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

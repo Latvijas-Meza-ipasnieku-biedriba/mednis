@@ -1,0 +1,416 @@
+{
+    "tabs": {
+        "map": "Kарта",
+        "observations": "Hаблюдения",
+        "damage": "Повреждение",
+        "hunt": "Oхота",
+        "settings": "Hастройки",
+        "mtl": "$t(mtl.title)"
+    },
+    "language": {
+        "lv": "Latviešu",
+        "en": "English",
+        "ru": "Pусский"
+    },
+    "languageSelect": {
+        "title": "Добро пожаловать в Mednis",
+        "next": "Дальше"
+    },
+    "settings": {
+        "title": "Hастройки",
+        "language": {
+            "label": "Язык",
+            "lv": "Latviešu",
+            "en": "English",
+            "ru": "Pусский"
+        },
+        "pin": {
+            "actions": {
+                "change": "Изменить PIN-код",
+                "delete": "Удалить PIN-код",
+                "setup": "Установить PIN"
+            },
+            "deleteConfirmation": {
+                "delete": "Удалить",
+                "title": "Удалить ПИН-код?"
+            },
+            "label": "Защитный PIN-код",
+            "setup": {
+                "confirmingTitle": "Введите новый PIN-код еще раз",
+                "enteringTitle": "Введите новый PIN-код",
+                "failure": "PIN не совпадает",
+                "success": "PIN-код установлен"
+            },
+            "deletedConfirmation": {
+                "title": "PIN-код удален"
+            }
+        }
+    },
+    "mtl": {
+        "title": "ПОУ",
+        "registerMember": {
+            "failure": {
+                "description": "Чтобы добавить этого охотника на выбранный участок, охотника должен зарегистрироваться в приложении Mednis и подтвердить номер своей охотничьей лицензии, связав учетную запись VMD.",
+                "close": "Закрыть",
+                "title": "Не удалось проверить"
+            },
+            "addMember": "Добавить",
+            "hunterCardNumber": "Номер охотничьего удостоверения",
+            "title": "Зарегистрировать нового участника"
+        },
+        "allDistricts": "Все участки",
+        "availablePermits": "Доступные лиценции",
+        "cancel": "Отмена",
+        "hunterCardNumberShort": "Нр. лицензии",
+        "huntingDistricts": "Охотничьи участки",
+        "issuedPermits": "Выданные лицензий",
+        "manageMemberRoles": {
+            "failure": {
+                "close": "Закрыть",
+                "title": "Не удалось восстановить роли членства"
+            }
+        },
+        "memberManagement": "Управление членами",
+        "memberRoles": {
+            "administrator": "Администратор",
+            "hunter": "Охотник",
+            "member": "Член",
+            "trustee": "Ответственное лицо",
+            "huntManager": "Руководитель охоты"
+        },
+        "permits": "Лицензии",
+        "removeMember": {
+            "failure": {
+                "close": "Закрыть",
+                "title": "Не удалось удалить"
+            },
+            "remove": "Удалить",
+            "removeFromMultipleTitle": "Из каких участков удалить этого участника?",
+            "removeFromSingleTitle": "Вы хотите удалить этого участника?"
+        },
+        "save": "Сохранить",
+        "statistics": "Статистика",
+        "usedPermits": "Использованные лицензии",
+        "district": "Охотничье угодье"
+    },
+    "observations": {
+        "title": "Наблюдения",
+        "notes": "Заметки",
+        "type": "Тип",
+        "species": {
+            "primary": "Вид",
+            "secondary": "основная группа"
+        },
+        "otherMammals": "Прочие млекопитающие",
+        "birds": "Птицы",
+        "gender": "Пол",
+        "age": "Возраст",
+        "count": "Число",
+        "observedSignsOfDisease": "Наблюдаемые признаки заболевания",
+        "signsOfDisease": "Признаки болезни",
+        "notesOnDiseases": "Заметки о болезнях",
+        "observedSigns": "Наблюдаемые признаки",
+        "deathType": "Тип повреждений",
+        "addAnother": "Добавить еще",
+        "photo": "Фото",
+        "saveAndSend": "Сохранить и отправить",
+        "deleteAnimalsItem": {
+            "title": "Хотите удалить?",
+            "delete": "Удалить"
+        },
+        "observedSignsNotes": "Другие особенности"
+    },
+    "damage": {
+        "title": "Повреждение",
+        "notes": " Заметки",
+        "type": "Тип",
+        "photo": "Фото",
+        "saveAndSend": "Сохранить и отправить",
+        "land": {
+            "type": "Тип Сельскохозяйственной земли",
+            "subtype": "Подтип Сельскохозяйственной земли",
+            "species": "Вид",
+            "otherSpecies": "Другой вид",
+            "area": {
+                "primary": "Площадь повреждений",
+                "secondary": "га"
+            },
+            "count": "Число"
+        },
+        "forest": {
+            "area": {
+                "primary": "Примерная Площадь повреждений",
+                "secondary": "га"
+            },
+            "standProtection": {
+                "label": "Защита леса была сделана?",
+                "yes": "Да",
+                "no": "Нет"
+            },
+            "damagedTreeSpecies": "Поврежденные породы деревьев",
+            "otherDamagedTreeSpecies": "Другой вид",
+            "damageVolumeType": "Количество свежего урона деревьям целевых видов",
+            "responsibleSpecies": "Виды животного, делающего повреждения",
+            "otherResponsibleSpecies": "Другой вид",
+            "damageTypes": "Тип повреждения"
+        },
+        "infrastructure": {
+            "type": "Тип повреждения",
+            "otherType": "Другое",
+            "responsibleSpecies": "Виды животного, делающего повреждения",
+            "otherResponsibleSpecies": "Другой вид"
+        }
+    },
+    "currentPosition": {
+        "loading": "Поиск местоположения",
+        "fetchPosition": "Поиск местоположения",
+        "failure": {
+            "title": "Не удалось определить местоположение",
+            "message": "Убедитесь, что местоположение включено, и повторите попытку.",
+            "button": "$t(currentPosition.fetchPosition)"
+        }
+    },
+    "photo": {
+        "select": "Добавить фото",
+        "open": "Открыть фото",
+        "remove": {
+            "label": "Удалить фото",
+            "title": "Хотите удалить фото?",
+            "remove": "Удалить"
+        },
+        "prompt": {
+            "title": "Добавить фото",
+            "chooseFromPhotos": "Выберите фото",
+            "capture": "Сфотографировать",
+            "view": "Посмотреть фото"
+        },
+        "failure": {
+            "title": "Не удалось добавить фото",
+            "message": "Убедитесь, что доступ к фотографиям и камере разрешен, и повторите попытку"
+        },
+        "edit": "Редактировать"
+    },
+    "modal": {
+        "close": "Закрывать",
+        "cancel": "Отмена",
+        "back": "Назад"
+    },
+    "loading": {
+        "active": "Отправляет информацию",
+        "cancel": "Отмена",
+        "failure": "Не удалось отправить информацию",
+        "retry": "Повторить",
+        "success": "Информация отправлена"
+    },
+    "select": {
+        "selectOption": "Выберите значение"
+    },
+    "map": {
+        "returnHome": "Вернуться в исходное положение на карте",
+        "position": {
+            "enable": "Включить отслеживание местоположения",
+            "resume": "Возобновить отслеживание местоположения",
+            "disable": "Отключить отслеживание местоположения",
+            "failure": {
+                "title": "Не удалось определить местоположение",
+                "message": "Убедитесь, что местоположение включено, и повторите попытку"
+            }
+        },
+        "settings": {
+            "title": "Настройки карты",
+            "basemaps": {
+                "title": "Фоновая карта",
+                "lvmBasemap": "Фоновая карта",
+                "ortofoto": "Ортофото"
+            },
+            "layers": {
+                "title": "Слои данных",
+                "zmniMelioration": "Мелиоративный кадастр",
+                "ladLb": "Служба поддержки сельского хозяйства",
+                "vzdCadaster": "VZD кадастр",
+                "damages": "Повреждения",
+                "observations": "Наблюдения",
+                "districts": "Охотничье угодье"
+            },
+            "infographics": {
+                "title": "Инфографика",
+                "african-swine-fever-2019-to-2021": "Африканская чума свиней, распространенность в 2019-2021 гг.",
+                "hunted-wolf-2020": "Добытые волки 2021 гг.",
+                "hunted-moose-2020": "Добытые лося, 2020",
+                "hunted-red-deer-2020": "Добытые олени, 2020",
+                "hunted-roe-deer-2020": "Добытые косули, 2020"
+            }
+        }
+    },
+    "hunt": {
+        "injuredAnimals": "Раненые животные",
+        "limitedSpecies": "Лимитированные виды",
+        "unlimitedSpecies": "Нелимитированные виды",
+        "unlimitedTerm": "Бессрочный",
+        "permits": "Лицензия",
+        "noPermits": "Нет лицензии",
+        "huntingLicenseNumber": "Номер охотничьего билета",
+        "huntersSeasonCard": "Карта охотничьего сезона",
+        "locationData": "Данные о местоположении",
+        "species": "Вид",
+        "type": {
+            "label": "Тип",
+            "injured": "Ранен",
+            "hunted": "Добыт"
+        },
+        "gender": {
+            "label": "Пол",
+            "male": "Самец",
+            "female": "Самка",
+            "unspecified": "Не установлен"
+        },
+        "age": {
+            "label": "Возраст",
+            "baby": "до 1 года",
+            "young": "Молодая особь",
+            "average": "Взрослая особь",
+            "old": "Старая особь",
+            "unspecified": "Не установлен"
+        },
+        "notes": "Заметки",
+        "photo": "Фото",
+        "count": "Число",
+        "observedSignsOfDisease": "Наблюдаемые признаки заболевания",
+        "submit": "Отправить",
+        "registerPrey": "Регистрировать добычу",
+        "strapNumber": "Номер бирки",
+        "huntCardInvalid": "Недействительная",
+        "huntCardValid": "Действующая",
+        "huntersLicenseNumber": "Номер охотничьего удостоверения",
+        "huntingDistricts": "Охотничьи коллективы",
+        "huntingDistrictManager": "Глава охотничьего общества",
+        "huntingDistrictMember": "Член охотничьего общества",
+        "title": "Охота",
+        "changeHunterCardNumber": "Изменить номер лицензии охотника на другой",
+        "enterHunterCardNumber": "Введите номер разрешения на охоту",
+        "huntManagersLicenseNumber": "Номер охотничьего удостоверения",
+        "hunterForeigner": "Охотник-иностранец"
+    },
+    "animalSpecies": {
+        "moose": "Лось",
+        "redDeer": "Благородный олень",
+        "roeDeer": "Косуля",
+        "wildBoar": "Кабан",
+        "lynx": "Рысь",
+        "wolf": "Волк",
+        "beaver": "Бобр",
+        "whiteHare": "Заяц-беляк",
+        "polecat": "Хорек",
+        "marten": "Kуница",
+        "europeanPineMarten": "Лесная куница",
+        "beechMarten": "Каменная куница",
+        "americanMink": "Американская норка",
+        "raccoonDog": "Енотовидная собака",
+        "fox": "Лиса",
+        "muskrat": "Ондатра",
+        "hare": "Заяц",
+        "mountainHare": "Заяц-беляк",
+        "greyHare": "Заяц-русак",
+        "badger": "Барсук",
+        "fallowDeer": "Лань",
+        "mouflon": "Муфлон",
+        "sikaDeer": "Пятнистый олень",
+        "raccoon": "Енот",
+        "coypu": "Нутрия",
+        "bobakMarmot": "Байбак",
+        "goldenJackal": "Золотистый шакал",
+        "westernCapercaillie": "Глухарь",
+        "blackGrouse": "Тетерев",
+        "hazelGrouse": "Лесная куропатка",
+        "rackelhahn": "Межняк",
+        "pheasant": "Фазан",
+        "commonWoodPigeon": "Вяхирь (витютень)",
+        "domesticPigeon": "Сизый голубь",
+        "eurasianWoodcock": "Вальдшнеп",
+        "hoodedCrow": "Серая ворона",
+        "eurasianMagpie": "Сорока",
+        "beanGoose": "Гусь гуменник",
+        "greaterWhiteFrontedGoose": "Белолобый гусь",
+        "canadaGoose": "Казарка",
+        "greylagGoose": "Серый гусь",
+        "eurasianCoot": "Лысуха",
+        "eurasianTeal": "Чирок-свистунок",
+        "gadwall": "Серая утка",
+        "northernShoveler": "Широконоска",
+        "mallard": "Кряква",
+        "garganey": "Чирок",
+        "eurasianWigeon": "Свиязь",
+        "northernPintail": "Шилохвостка",
+        "tuftedDuck": "Хохлатая чернеть",
+        "greaterScaup": "Морская чернеть",
+        "commonScoter": "Синьга",
+        "commonGoldeneye": "Гоголь",
+        "bear": "Медведь",
+        "racoonDog": "Енот",
+        "ferret": "Хорек",
+        "other": "Другой вид",
+        "otherMammals": "Прочие млекопитающие",
+        "birds": "Птицы"
+    },
+    "initialLoading": {
+        "active": "Загружает данные, необходимые приложению",
+        "failure": "Не удалось загрузить данные, необходимые для приложения",
+        "retry": "Повторить"
+    },
+    "menu": {
+        "aboutApp": "О приложении",
+        "exit": "Выйти",
+        "title": "Профиль и настройки",
+        "profile": "$t(profile.title)",
+        "settings": "$t(settings.title)",
+        "editQueue": "$t(editQueue.title)"
+    },
+    "profile": {
+        "basicInfo": "Основная информация",
+        "firstName": "Имя",
+        "huntingDistricts": "$t(hunt.huntingDistricts)",
+        "lastName": "Фамилия",
+        "title": "Профиль пользователя",
+        "connectVmdAccount": "$t(vmdConnect.connect)"
+    },
+    "about": {
+        "title": "О приложении",
+        "description": "Приложение Mednis - это инструмент для сбора данных, совместимых с Государственными лесными регистрами, для записи о животных, свидетельств их наличия, охоты и повреждений. Приложение разработано для содействия оптимальному использованию, сохранению и регулированию лесных ресурсов, уменьшая при этом риск ущерба и потерь в лесном и сельскохозяйственном секторах, а также уменьшая административное бремя охоты.",
+        "euSupportNotice": "Приложение разработано с государственной и Европейской поддержкой «Сотрудничество» 16.2. в рамках подмеры «Поддержка разработки новых продуктов, методов, процессов и технологий» в проекте «РАЗРАБОТКА ИНСТРУМЕНТА СБОРА ИНФОРМАЦИИ ДЛЯ УПРАВЛЕНИЯ ПОПУЛЯЦИЕЙ ЖИВОТНЫХ».",
+        "contactUs": "Свяжитесь с нами",
+        "termsOfUse": "Условия использования",
+        "privacyPolicy": "Политика конфиденциальности",
+        "debugInfo": "Сведения об отладке",
+        "appVersion": "Версия: {{version}}"
+    },
+    "editQueue": {
+        "title": "Отправленные элементы",
+        "add": {
+            "success": "Отчет добавлен"
+        }
+    },
+    "vmdConnect": {
+        "connect": "Добавить аккаунт VMD",
+        "failure": "Не удалось присоединиться к аккаунту VMD",
+        "skip": "Пропускать"
+    },
+    "login": {
+        "title": "Авторизация",
+        "login": "Авторизоваться",
+        "register": "Зарегистрироваться",
+        "agreements": "Я прочитал и согласен с <1>Условиями использования</1>. Я прочитал <2>Политику конфиденциальности</2>."
+    },
+    "general": {
+        "delete": "Удалить"
+    },
+    "pinValidator": {
+        "message": "Количество оставшихся попыток:{{remainingAttempts}}",
+        "title": "Введите PIN-код"
+    },
+    "errorFallback": {
+        "title": "В приложении произошла критическая ошибка",
+        "sendDebugInfo": "Отправить отладочную информацию",
+        "restartApp": "Перезапустите приложение",
+        "description": "Попробуйте перезапустить приложение. Если проблема не исчезнет, ​​отправьте нам отладочную информацию на {{supportEmail}}. Кроме того, добавьте информацию о своем телефоне (модель, операционная система и версия), а также действия, которые вы предприняли до получения этого сообщения. Разработчики воспользуются этой информацией, чтобы определить причину проблемы и попытаться исправить ее как можно скорее."
+    }
+}

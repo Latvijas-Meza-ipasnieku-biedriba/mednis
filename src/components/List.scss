@@ -1,0 +1,47 @@
+.list {
+    display: flex;
+    flex-direction: column;
+
+    .list-item:first-of-type {
+        border-top: 1px solid var(--gray-200);
+    }
+
+    .list-item {
+        border-bottom: 1px solid var(--gray-200);
+    }
+}
+
+.list-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    font-family: "IBM Plex Sans Regular";
+    text-align: left;
+    font-size: 1rem;
+
+    &__left-icon {
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--gray-800);
+        }
+    }
+
+    &__title {
+        flex: 1;
+    }
+
+    &__right-icon {
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: var(--gray-800);
+        }
+    }
+
+    &--pressed {
+        background-color: var(--gray-100);
+    }
+}

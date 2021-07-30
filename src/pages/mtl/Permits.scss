@@ -1,0 +1,103 @@
+.mtl-permits {
+    padding-top: 0;
+
+    .selected-district {
+        .read-only-input {
+            display: flex;
+            padding-bottom: 0.75rem;
+            padding-top: 0.75rem;
+
+            label {
+                color: var(--gray-800);
+                font-family: "IBM Plex Sans Regular";
+                color: var(--green);
+                font-size: 1rem;
+                font-family: "IBM Plex Sans Bold";
+                margin: 0;
+            }
+
+            &__value {
+                input {
+                    margin-left: 0.125em;
+                    color: var(--gray-800);
+                    font-size: 0.75rem;
+                    font-family: "IBM Plex Sans Regular";
+                    margin-left: 0.25em;
+                    color: var(--green);
+                    font-size: 1rem;
+                    font-family: "IBM Plex Sans Bold";
+                }
+            }
+        }
+    }
+
+    .collapsible {
+        .collapsible-item:first-of-type {
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .collapsible-item__header__right {
+            margin-left: auto;
+            margin-right: 2rem;
+
+            .permit-tags {
+                display: flex;
+                margin-left: auto;
+
+                &__permit-tag {
+                    position: relative;
+                    display: flex;
+                    margin-left: 0.5rem;
+
+                    &__count {
+                        position: absolute;
+                        text-align: center;
+                        width: 2.5rem;
+                        line-height: 1.5rem;
+                        color: white;
+                        font-size: 0.75rem;
+                    }
+
+                    svg {
+                        height: 1.5rem;
+                        width: 2.5rem;
+                    }
+                }
+
+                &__permit-tag--total {
+                    svg {
+                        fill: var(--gray-300);
+                    }
+                }
+
+                &__permit-tag--available {
+                    svg {
+                        fill: var(--success);
+                    }
+                }
+            }
+        }
+
+        .read-only-input {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            label {
+                margin-top: 1rem;
+            }
+
+            input {
+                text-align: right;
+                color: var(--gray-700);
+                font-family: "IBM Plex Sans Regular";
+            }
+        }
+
+        .read-only-input:first-of-type {
+            label {
+                margin-top: 0.25rem;
+            }
+        }
+    }
+}

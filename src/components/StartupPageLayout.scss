@@ -1,0 +1,28 @@
+.startup-page-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: url(../assets/images/background.png) no-repeat top;
+    background-size: cover;
+
+    .startup-page-layout__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+        border-radius: 0.5rem;
+        margin-top: calc(env(safe-area-inset-top) + 1rem);
+        margin-right: calc(env(safe-area-inset-right) + 1rem);
+        margin-bottom: calc(env(safe-area-inset-bottom) + 1rem);
+        margin-left: calc(env(safe-area-inset-left) + 1rem);
+    }
+
+    @media (min-width: 640px) {
+        .startup-page-layout__content {
+            width: auto;
+            min-width: 20rem;
+        }
+    }
+}

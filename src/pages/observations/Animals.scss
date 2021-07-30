@@ -1,0 +1,20 @@
+.animals {
+    .animals__content {
+        .animals-item:not(:last-of-type) {
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .animals-item--collapsed:last-of-type {
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .animals-item:not(.animals-item--collapsed):not(:last-of-type) {
+            padding-bottom: 1.75rem;
+        }
+    }
+
+    .animals__footer {
+        padding: 0.625rem 0;
+        border-bottom: 1px solid var(--gray-200);
+    }
+}

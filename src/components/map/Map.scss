@@ -1,0 +1,16 @@
+.map {
+    height: 100%;
+    position: relative;
+
+    .leaflet-map {
+        height: 100%;
+
+        .leaflet-basemap-pane {
+            z-index: 201;
+        }
+
+        .leaflet-layer-pane {
+            z-index: 202;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2019,
+        "sourceType": "module"
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier",
+        "plugin:react/recommended",
+        "plugin:react-hooks/recommended",
+        "plugin:jest-dom/recommended",
+        "plugin:testing-library/react"
+    ],
+    "plugins": ["@typescript-eslint"],
+    "env": {
+        "browser": true,
+        "node": true,
+        "jest": true
+    },
+    "settings": {
+        "react": {
+            "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+        },
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    },
+    "globals": {
+        "L": "readonly"
+    },
+    "rules": {
+        // object = { x } instead of { x: x }
+        "object-shorthand": "error",
+        "react/prop-types": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+    }
+}

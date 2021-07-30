@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+    &__description {
+        flex: 1;
+
+        &__elfla-logo {
+            margin-top: 1.5rem;
+            width: 100%;
+        }
+    }
+
+    &__actions {
+        margin: 1.5rem -1rem 0 -1rem;
+    }
+
+    &__app-version {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+}

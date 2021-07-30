@@ -1,0 +1,16 @@
+{
+    "appId": "lv.mezaipasnieki.mednis",
+    "appName": "Mednis",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "dist",
+    "plugins": {
+        "SplashScreen": {
+            "launchShowDuration": 10000
+        }
+    },
+    "cordova": {},
+    "ios": {
+        "minVersion": "13.0"
+    }
+}

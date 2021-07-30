@@ -1,0 +1,13 @@
+node_modules
+dist
+coverage
+package-lock.json
+.eslintcache
+.gradle
+.vscode
+.DS_Store
+.gitlab-ci.yml
+
+# Private
+documentation
+src/configuration.ts

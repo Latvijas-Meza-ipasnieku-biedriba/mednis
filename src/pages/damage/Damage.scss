@@ -1,0 +1,29 @@
+.damage {
+    .damage__header {
+        background-color: white;
+
+        .damage__header__fields {
+            margin-right: calc(env(safe-area-inset-right) + 1rem);
+            margin-left: calc(env(safe-area-inset-left) + 1rem);
+
+            .type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .damage__content {
+        margin-right: calc(env(safe-area-inset-right) + 1rem);
+        margin-left: calc(env(safe-area-inset-left) + 1rem);
+    }
+
+    .damage__footer {
+        margin-right: calc(env(safe-area-inset-right) + 1rem);
+        margin-bottom: 2.5rem;
+        margin-left: calc(env(safe-area-inset-left) + 1rem);
+
+        .damage__footer__submit {
+            margin-top: 1rem;
+        }
+    }
+}

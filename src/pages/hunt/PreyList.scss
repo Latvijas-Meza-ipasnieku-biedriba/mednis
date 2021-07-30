@@ -1,0 +1,135 @@
+.collapsible {
+    .collapsible-item--limited-prey-list:not(.collapsible-item--collapsed) {
+        .collapsible-item__header {
+            padding-bottom: 0.5rem;
+        }
+    }
+}
+
+.prey-list {
+    .read-only-input {
+        display: flex;
+        padding-bottom: 0.75rem;
+        label {
+            color: var(--green);
+            font-size: 1rem;
+            font-family: "IBM Plex Sans Bold";
+            margin: 0;
+        }
+
+        &__value {
+            input {
+                margin-left: 0.25em;
+                color: var(--green);
+                font-size: 1rem;
+                font-family: "IBM Plex Sans Bold";
+            }
+        }
+    }
+
+    .prey:not(:first-of-type) {
+        margin-top: 0.5rem;
+    }
+}
+
+.prey {
+    display: flex;
+    background-color: white;
+    border: 1px solid var(--gray-200);
+    box-shadow: 0 4px 8px 0 rgba(31, 32, 33, 0.08);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    outline: none;
+
+    .prey__left {
+        margin-top: 1.125rem;
+        margin-bottom: 1.125rem;
+        margin-left: 1.25rem;
+        svg {
+            width: 2rem;
+            height: 2rem;
+            fill: var(--gray-800);
+        }
+    }
+
+    .prey__right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 0.875rem 1rem 1rem 1rem;
+
+        &__type {
+            font-family: "IBM Plex Sans Bold";
+            color: var(--gray-800);
+        }
+
+        &__details {
+            display: flex;
+            flex-direction: row;
+
+            margin-top: 0.375rem;
+            color: var(--gray-800);
+
+            &__term {
+                display: flex;
+                margin-top: 0.375rem;
+                font-size: 0.75rem;
+                color: var(--gray-800);
+                min-width: 5rem;
+            }
+
+            &__injured-date {
+                display: flex;
+                font-weight: bold;
+                color: black;
+                font-size: 0.85rem;
+                min-width: 5rem;
+                margin-left: 0.4rem;
+            }
+
+            &__permits {
+                display: flex;
+                margin-left: 2rem;
+
+                &__count {
+                    .badge {
+                        display: table-cell;
+                        color: white;
+                        vertical-align: middle;
+                        background-color: var(--information);
+                        border: none;
+                    }
+                }
+
+                &__no__permits {
+                    width: 1.2rem;
+                    height: 1.2rem;
+                    opacity: 100%;
+                    fill: var(--error);
+                }
+
+                &__label {
+                    display: flex;
+                    margin-left: 0.5rem;
+                    vertical-align: middle;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    &:focus {
+        border: 1px solid var(--green-active);
+    }
+}
+
+.prey--disabled {
+    background: rgba(255, 255, 255, 0.5);
+
+    .prey__right__type,
+    .prey__right__details__term,
+    .prey__left {
+        opacity: 50%;
+    }
+}
